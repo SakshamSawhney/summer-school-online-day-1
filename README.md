@@ -21,5 +21,3 @@ I used a basic <nav> block with links to each file so users can go between pages
 
 Favicon:
 A .svg file is linked in each page using the <link rel="icon"> tag.
-
-Built by Bhargav Gupta with pure HTML5. No CSS yet — that’s coming soon!
