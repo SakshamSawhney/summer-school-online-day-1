@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saksham Sawhney Portfolio</title>
+</head>
+<style>
+    body {background-color:rgb(198, 188, 188); color: black; border-radius: 5px;}
+
+    ul.top-menu  {list-style-type: none ; margin: 0; padding: 0; background-color: rgb(52, 50, 50); }
+    li {display: inline;}
+    .dropdown-content li {display: block;}
+    a {color: whitesmoke; text-decoration: none;}
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        color: whitesmoke;
+    }
+
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #000000;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+</style>
+<body>
+    
+    <header>
+    <h1>Saksham Sawhney</h1>
+    <ul class="top-menu">
+        <li><a href="portfolio.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><div class="dropdown">
+            <span>Other</span>
+            <div class="dropdown-content">
+                <ul >
+                    <li><a href=""></a>github</li>
+                    <li><a href=""></a>leetcode</li>
+                    <li><a href=""></a>certificate</li>
+                </ul>
+            </div>
+            </div>
+        </li>
+    </ul>
+  </header>
+
+    <main>
+        <section>
+          <h2>Welcome to my Portfolio</h2>
+          <img src="Portfolio-Desk.jpg" alt="general image for portfolio" width="200px" > 
+            <h3>Web Developer in the Making</h3>
+            <h4>DTU | B.Tech CSE</h4>
+            <h5>Explorer | Learner | Coder</h5>
+            <h6>Thanks for stopping by!</h6>
+        </section>
+    
+
+    <section>
+      <h2>My Skills</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>C++</li>
+        <li>React (Learning)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ol>
+        <li>Delhi Technological University</li>
+        <li>ABC Public School, Delhi</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+     
+
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Spotify Frontend</td>
+            <td>A simple spotify clone with responsive frontend</td>
+          </tr>
+          <tr>
+            <td>Portfolio Website</td>
+            <td>This basic HTML portfolio page</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Saksham Sawhney</p>
+  </footer>
+
+</body>
+</html>
